@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mad Libs Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Mad Libs Game 🎉</h1>
+
+    <form id="madlib-form">
+      <label>Enter a name:</label>
+      <input type="text" id="name" required>
+
+      <label>Enter a place:</label>
+      <input type="text" id="place" required>
+
+      <label>Enter an adjective:</label>
+      <input type="text" id="adjective" required>
+
+      <label>Enter an animal:</label>
+      <input type="text" id="animal" required>
+
+      <label>Enter a verb:</label>
+      <input type="text" id="verb" required>
+
+      <button type="submit">Create Story</button>
+    </form>
+
+    <div id="story" class="story"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
